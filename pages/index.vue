@@ -3,6 +3,11 @@ useSeoMeta({
   title: "Olukayode, Nuxt.js Developer and Wordpress designer",
   description: "This is my personal portfolio",
 });
+
+// github repo api fetch
+const { data, pending, error } = await useFetch(
+  "https://api.github.com/users/blaqnativity/repos"
+);
 </script>
 
 <template>
@@ -153,4 +158,39 @@ useSeoMeta({
     </div>
   </section>
   <!-- testimonials section -->
+
+  <!-- github repo section -->
+  <section class="mb-20">
+    <div
+      class="flex flex-wrap w-full mt-20 mb-10 flex-col items-center text-center"
+    >
+      <h1
+        class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
+      >
+        My Github Repositories
+      </h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+        Check out my github repo to find the code base of some of my works.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 gap-6 max-w-5xl mx-auto">
+      <div
+        class="border rounded p-4 grid gap-2"
+        v-for="repo in data"
+        :key="repo"
+      >
+        <span class="text-lg font-semibold"> {{ repo.name }}</span>
+        <span class="text-sm text-gray-500"> {{ repo.description }}</span>
+        <ULink
+          :to="repo.html_url"
+          target="_blank"
+          class="flex gap-2 items-center"
+          ><span>See more</span>
+          <UIcon name="i-heroicons-arrow-long-right-20-solid" />
+        </ULink>
+      </div>
+    </div>
+  </section>
+  <!-- github repo section -->
 </template>
