@@ -4,14 +4,41 @@
   <section class="w-full bg-gray-100">
     <div class="max-w-6xl mx-auto py-6 px-4 flex items-center justify-between">
       <div>
-        <NuxtLink to="/">Olukayode</NuxtLink>
+        <ULink
+          to="/"
+          inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+        >
+          Olukayode
+        </ULink>
       </div>
       <div class="flex space-x-6 items-center font-medium text-gray-600">
-        <NuxtLink to="/blog">Blog</NuxtLink>
-        <NuxtLink to="/projects">Projects</NuxtLink>
-        <NuxtLink to="/">Contact</NuxtLink>
+        <ULink
+          to="/blog/"
+          active-class="text-primary"
+          inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+        >
+          Blog
+        </ULink>
 
-        <UIcon name="i-heroicons-moon-20-solid" class="cursor-pointer" />
+        <ULink
+          to="/projects"
+          active-class="text-primary"
+          inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+        >
+          Projects
+        </ULink>
+
+        <ULink
+          to="#"
+          active-class="text-primary"
+          inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+        >
+          Contact
+        </ULink>
+
+        <ClientOnly>
+          <ColorModeSelector />
+        </ClientOnly>
       </div>
     </div>
   </section>

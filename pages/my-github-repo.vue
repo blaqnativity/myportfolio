@@ -13,7 +13,7 @@ const { data, error } = await useFetch(
         <h1
           class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
         >
-          Portfolio
+          My Github Repos
         </h1>
         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
           Designed Web apps for Small and Medium Sized Business and did UI/UX
