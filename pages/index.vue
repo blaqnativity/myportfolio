@@ -1,9 +1,4 @@
 <script setup>
-useSeoMeta({
-  title: "Olukayode, Nuxt.js Developer and Wordpress designer",
-  description: "This is my personal portfolio",
-});
-
 // github repo api fetch
 const { data, pending, error } = await useFetch(
   "https://api.github.com/users/blaqnativity/repos"
@@ -12,7 +7,7 @@ const { data, pending, error } = await useFetch(
 
 <template>
   <!-- hero section -->
-  <section class="text-gray-600 body-font">
+  <section class="text-gray-600">
     <div
       class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
     >
@@ -34,7 +29,7 @@ const { data, pending, error } = await useFetch(
             >Got an idea? Lets talk
             <UIcon name="i-heroicons-chat-bubble-left-ellipsis-16-solid" />
           </UButton>
-          <UButton to="/" size="xl"
+          <UButton to="/projects" size="xl"
             >See my work
             <UIcon name="i-heroicons-rectangle-stack-solid" />
           </UButton>
@@ -52,7 +47,7 @@ const { data, pending, error } = await useFetch(
   <!-- hero section -->
 
   <!-- my works section -->
-  <section class="text-gray-600 body-font">
+  <section class="text-gray-600">
     <div class="container px-5 py-24 mx-auto">
       <div
         class="flex flex-wrap w-full mb-20 flex-col items-center text-center"
@@ -120,7 +115,7 @@ const { data, pending, error } = await useFetch(
   <!-- my works section -->
 
   <!-- testimonials section -->
-  <section class="text-gray-600 body-font">
+  <section class="text-gray-600">
     <div class="container px-5 py-24 mx-auto">
       <div
         class="flex flex-wrap w-full mb-10 flex-col items-center text-center"
