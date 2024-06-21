@@ -89,8 +89,7 @@ useSeoMeta({
               Frontend Development
             </h2>
             <p class="leading-relaxed text-base">
-              Beautiful and functional mobile applications for iOS and Android
-              platforms.
+              Beautiful and responsive web apps for mobile and desktop devices.
             </p>
           </div>
         </div>
