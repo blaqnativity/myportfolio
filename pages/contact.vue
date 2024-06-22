@@ -23,33 +23,37 @@ const option = ref(options[0]);
       </small>
     </div>
 
-    <UCard class="max-w-2xl mx-auto mb-10 p-6">
-      <div class="flex justify-between">
-        <div class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-          <h1>Book a free call</h1>
-          <small class="lg:w-1/2 w-full leading-relaxed text-gray-500 text-sm"
-            >Let's talk about your project and how I can help you.</small
+    <div class="p-4">
+      <UCard class="max-w-2xl mx-auto mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
+          <div
+            class="sm:text-3xl text-2xl font-medium title-font text-gray-900 md:col-span-2"
           >
-        </div>
+            <h1>Book a free call</h1>
+            <small class="lg:w-1/2 w-full leading-relaxed text-gray-500 text-sm"
+              >Let's talk about your project and how I can help you.</small
+            >
+          </div>
 
-        <div>
-          <UButton
-            label="Book Now"
-            size="lg"
-            icon="i-heroicons-calendar-days-20-solid"
-          />
+          <div class="md:grid-cols-1">
+            <UButton
+              label="Book Now"
+              size="lg"
+              icon="i-heroicons-calendar-days-20-solid"
+            />
+          </div>
         </div>
-      </div>
-    </UCard>
+      </UCard>
+    </div>
 
     <div class="max-w-2xl mx-auto mb-10">
       <h1
-        class="sm:text-3xl text-2xl font-medium title-font mb-10 text-gray-900"
+        class="sm:text-3xl text-2xl font-medium title-font mb-10 text-gray-900 px-4 md:px-1"
       >
         Or Send a message
       </h1>
 
-      <UForm class="space-y-4">
+      <UForm class="space-y-4 md:p-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
           <UFormGroup label="Name">
             <UInput />

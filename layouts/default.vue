@@ -59,14 +59,6 @@ console.log(colorMode.preference);
             active-class="text-primary"
             inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
           >
-            Portfolio
-          </ULink>
-
-          <ULink
-            to="/projects"
-            active-class="text-primary"
-            inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
-          >
             Projects
           </ULink>
         </div>
@@ -76,7 +68,7 @@ console.log(colorMode.preference);
         <p>If you have any questions, please feel free to contact me.</p>
 
         <div class="w-fit">
-          <UButton to="/" label="Let's talk" />
+          <UButton to="/contact" label="Let's talk" />
         </div>
       </div>
     </div>

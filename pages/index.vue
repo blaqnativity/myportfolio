@@ -25,7 +25,7 @@ const { data, pending, error } = await useFetch(
           requirements.
         </p>
         <div class="flex justify-center space-x-4">
-          <UButton to="/" size="xl"
+          <UButton to="/contact" size="xl"
             >Got an idea? Lets talk
             <UIcon name="i-heroicons-chat-bubble-left-ellipsis-16-solid" />
           </UButton>
@@ -39,7 +39,7 @@ const { data, pending, error } = await useFetch(
         <img
           class="object-cover object-center rounded"
           alt="hero"
-          src="/public/images/mock.png"
+          src="/public/images/promage.png"
         />
       </div>
     </div>
@@ -155,7 +155,7 @@ const { data, pending, error } = await useFetch(
   <!-- testimonials section -->
 
   <!-- github repo section -->
-  <section class="mb-20">
+  <section id="repository" class="mb-20">
     <div
       class="flex flex-wrap w-full mt-20 mb-10 flex-col items-center text-center"
     >
