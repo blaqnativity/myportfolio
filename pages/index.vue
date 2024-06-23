@@ -1,4 +1,6 @@
 <script setup>
+import { errorMessages } from "vue/compiler-sfc";
+
 // github repo api fetch
 const { data, pending, error } = await useFetch(
   "https://api.github.com/users/blaqnativity/repos"
@@ -169,7 +171,23 @@ const { data, pending, error } = await useFetch(
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 max-w-5xl mx-auto">
+    <div v-if="pending">
+      <div class="space-y-2">
+        <USkeleton class="h-6 w-full" />
+        <USkeleton class="h-6 w-full" />
+        <USkeleton class="h-6 w-full" />
+      </div>
+    </div>
+    <div v-else-if="error">
+      <div class="space-y-2 text-center max-w-2xl mx-auto">
+        <span class="text-3xl font-bold text-red-600"
+          >Error: {{ error.statusCode }}</span
+        >
+
+        <p class="text-sm font-normal">Error message: {{ error.message }}</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 gap-6 max-w-5xl mx-auto" v-else>
       <div
         class="border rounded p-4 grid gap-2"
         v-for="repo in data"

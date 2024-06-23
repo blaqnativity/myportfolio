@@ -14,10 +14,14 @@ console.log(colorMode.preference);
   <!-- footer section -->
   <footer class="text-gray-600 border-t">
     <div
-      class="max-w-6xl mx-auto grid grid-cols-1 gap-8 md:grid-cols-5 items-start py-10 px-4"
+      class="max-w-5xl mx-auto grid grid-cols-1 gap-8 md:grid-cols-5 items-start py-10 px-4"
     >
       <div class="col-span-3 space-y-6">
-        <NuxtLink>Olukayode</NuxtLink>
+        <ULink
+          class="logo text-2xl md:text-3xl font-semibold text-gray-600"
+          to="/"
+          >_kayodev</ULink
+        >
         <p>Shaping world class websites, designs and experiences.</p>
         <div class="flex items-center gap-6">
           <div class="bg-gray-100 p-6 rounded-md w-fit">

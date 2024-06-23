@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/ui", "@nuxtjs/color-mode", "@nuxt/image"],
+  modules: ["@nuxt/ui", "@nuxtjs/color-mode", "@nuxt/image", "@nuxt/content"],
   colorMode: {
     preference: "light",
   },

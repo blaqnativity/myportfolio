@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <section class="mt-20">
     <div

@@ -3,7 +3,5 @@ const route = useRoute();
 </script>
 
 <template>
-  <div>
-    {{ route.params.id }}
-  </div>
+  <main>post id is {{ route.params.id }}</main>
 </template>
