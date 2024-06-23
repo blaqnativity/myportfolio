@@ -7,7 +7,7 @@
         <ULink
           to="/"
           inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
-          class="logo text 3xl md:text-4xl font-bold text-gray-700"
+          class="logo text 3xl md:text-5xl font-semibold text-gray-700"
         >
           _kayodee
         </ULink>
