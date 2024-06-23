@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="w-full bg-gray-100">
+  <section class="w-full">
     <div class="max-w-6xl mx-auto py-6 px-4 flex items-center justify-between">
       <div>
         <ULink
