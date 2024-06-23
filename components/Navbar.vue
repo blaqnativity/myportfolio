@@ -2,7 +2,7 @@
 
 <template>
   <section class="w-full">
-    <div class="max-w-6xl mx-auto py-6 px-4 flex items-center justify-between">
+    <div class="max-w-5xl mx-auto py-6 px-4 flex items-center justify-between">
       <div>
         <ULink
           to="/"
@@ -22,11 +22,11 @@
         </ULink>
 
         <ULink
-          to="/projects"
+          to="/about"
           active-class="text-primary"
           inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
         >
-          Projects
+          About
         </ULink>
 
         <ULink
@@ -36,10 +36,10 @@
         >
           Contact
         </ULink>
-
+        <!-- 
         <ClientOnly>
           <ColorModeSelector />
-        </ClientOnly>
+        </ClientOnly> -->
       </div>
     </div>
   </section>

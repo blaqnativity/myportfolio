@@ -7,7 +7,7 @@ console.log(colorMode.preference);
 <template>
   <Navbar />
 
-  <div class="max-w-6xl mx-auto">
+  <div class="max-w-5xl mx-auto">
     <slot />
   </div>
 
