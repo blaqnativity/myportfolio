@@ -36,10 +36,10 @@ const { data, pending, error } = await useFetch(
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
+        <NuxtImg
           class="object-cover object-center rounded"
           alt="hero"
-          src="/public/images/promage.png"
+          src="/images/promage.png"
         />
       </div>
     </div>
