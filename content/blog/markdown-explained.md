@@ -1,3 +1,20 @@
+---
+title: "Markdown Explained Fully"
+description: "All you need to get started with Markdown"
+head:
+  meta:
+    - name: "keywords"
+      content: "nuxt, vue, content"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "NuxtLabs"
+    - name: "copyright"
+      content: "© 2022 NuxtLabs"
+    - name: "og:title"
+    - content: "This is an opengraph title"
+---
+
 Certainly! Below is a sample file structure for a Nuxt.js project. This structure covers the basics and follows common conventions used in Nuxt.js applications.
 
 ```

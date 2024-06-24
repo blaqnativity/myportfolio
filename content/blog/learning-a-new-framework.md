@@ -1,3 +1,20 @@
+---
+title: "Learning a New Technology"
+description: "Overcoming Fatigue in the Process of Learning a New Technology in Frontend Development"
+head:
+  meta:
+    - name: "keywords"
+      content: "nuxt, vue, content"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "NuxtLabs"
+    - name: "copyright"
+      content: "© 2022 NuxtLabs"
+    - name: "og:title"
+    - content: "This is an opengraph title"
+---
+
 # Overcoming Fatigue in the Process of Learning a New Technology in Frontend Development
 
 Learning a new technology, especially in the fast-paced world of frontend development, can be both exciting and overwhelming. It's common to experience fatigue during this process, but there are strategies to help you stay motivated and efficient. This guide provides tips to overcome fatigue and make your learning journey more enjoyable and productive.

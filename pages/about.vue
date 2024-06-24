@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-20">
+  <section class="mt-10">
     <div
       class="flex flex-wrap w-full mb-10 flex-col items-center text-center px-4"
     >
@@ -13,5 +13,9 @@
         Articles, Tips, Web Hosting deals coupons and more.
       </p>
     </div>
+
+    <main class="prose">
+      <ContentDoc path="/about" />
+    </main>
   </section>
 </template>

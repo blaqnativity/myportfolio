@@ -3,7 +3,7 @@ const route = useRoute();
 </script>
 
 <template>
-  <article class="p-8 prose">
+  <article class="p-6 prose">
     <ContentDoc />
   </article>
 </template>

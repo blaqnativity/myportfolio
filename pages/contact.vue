@@ -53,7 +53,7 @@ const option = ref(options[0]);
         Or Send a message
       </h1>
 
-      <UForm class="space-y-4 md:p-4">
+      <!-- <UForm class="space-y-4 md:p-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
           <UFormGroup label="Name">
             <UInput />
@@ -78,7 +78,7 @@ const option = ref(options[0]);
           ><span>Send Message</span>
           <UIcon name="i-heroicons-paper-airplane-16-solid"
         /></UButton>
-      </UForm>
+      </UForm> -->
     </div>
   </section>
 </template>
