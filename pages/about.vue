@@ -1,19 +1,11 @@
-<template>
-  <section class="mt-10">
-    <div
-      class="flex flex-wrap w-full mb-10 flex-col items-center text-center px-4"
-    >
-      <h1
-        class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
-      >
-        About Olukayode
-      </h1>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
-        Get Website Design, Development, Nodejs, Vue and Typescript Related
-        Articles, Tips, Web Hosting deals coupons and more.
-      </p>
-    </div>
+<script setup>
+const imags = [
+  // link:'/images/olukayode.png'
+];
+</script>
 
+<template>
+  <section class="mt-10 px-8">
     <main class="prose">
       <ContentDoc path="/about" />
     </main>

@@ -3,9 +3,11 @@ title: "About Olukayode"
 description: "My journey into tech and how far I have come"
 ---
 
+<!-- ![Olukayode Asemudara](/images/olukayode.png) -->
+
 # About Me
 
-Hello there, I'm **Olukayode Asemudara**. I had my first degree in Sociology from Adekunle Ajasin University, Ondo State, Nigeria. I am a self-taught front-end developer.
+I'm **Olukayode Asemudara**. I had my first degree in Sociology from Adekunle Ajasin University, Ondo State, Nigeria. I am a self-taught front-end developer.
 
 ## My Tech Journey
 
@@ -27,4 +29,4 @@ Thank you for taking the time to learn about my journey. If you have any opportu
 
 ---
 
-Feel free to [contact me](mailto:your-email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile).
+Feel free to [contact me](https://www.olukayodeasemudara@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/asemudara-olukayode-8b04ba196/).
