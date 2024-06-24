@@ -3,5 +3,7 @@ const route = useRoute();
 </script>
 
 <template>
-  <main>post id is {{ route.params.id }}</main>
+  <article class="p-8 prose">
+    <ContentDoc />
+  </article>
 </template>

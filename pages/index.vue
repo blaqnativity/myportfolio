@@ -19,12 +19,11 @@ const { data, pending, error } = await useFetch(
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
         >
-          Architecting the next generation of web applications
+          Crafting the next generation of web applications
         </h1>
         <p class="mb-8 leading-relaxed">
-          I'm Olukayode, a frontend software developer with a passion for
-          building functional web applications tailored to your specific
-          requirements.
+          I'm a Frontend software developer with a passion for building
+          functional web applications tailored to your specific requirements.
         </p>
         <div class="flex justify-center space-x-4">
           <UButton to="/contact" size="xl"

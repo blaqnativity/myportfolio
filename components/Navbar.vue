@@ -1,12 +1,12 @@
 <script setup></script>
 
 <template>
-  <section class="w-full bg-white sticky top-0 border-b">
+  <section class="w-full bg-white border-b">
     <div class="max-w-5xl mx-auto py-5 px-4 flex items-center justify-between">
       <div>
         <ULink
           to="/"
-          class="logo text-3xl md:text-5xl font-semibold text-gray-600"
+          class="logo text-3xl md:text-5xl font-semibold text-gray-900"
         >
           _kayodev
         </ULink>
