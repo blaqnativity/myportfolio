@@ -7,7 +7,7 @@ description: "My journey into tech and how far I have come"
 
 # About Me
 
-I'm **Olukayode Asemudara**. I had my first degree in Sociology from Adekunle Ajasin University, Ondo State, Nigeria. I am a self-taught front-end developer.
+I'm **Olukayode Asemudara**, I am a self-taught front-end developer, and wordpress-site builder.
 
 ## My Tech Journey
 
@@ -20,6 +20,10 @@ Coupled with the well-known fact that tech professionals are making significant 
 I learned how to make websites with WordPress, Webflow, and Flutterflow (for mobile apps). When I exhausted the cyclical process of repetition and still felt unsatisfied, I finally purchased a Udemy course on front-end development and delved into the world of code.
 
 So far, I've learned how to create amazing and responsive web apps using JavaScript and other frameworks like Vue.js and Nuxt 3.
+
+## My Experiences and Portfolio
+
+My first front-end gig and internship program was at **(https://www.therootshive.com)**. Rootshive is a complete business suite for (m)SMEs and Enterprises. Its all about helping you with enhancing profitability, decision-making, and responsiveness, and helps you own your business with its **B2B2X** approach. I had a firsthand experience of what frontend is like in the real world. Although, I couldn't do so much because Rootshive was developed using **PHP**, but regardless, it was worth it. The Founder and CTO of Rootshive in person of Toluwase Ogunde was a very great person to work with. He made my stay and time worth the while with the team @ **Rootshive**.
 
 ## My Passion and Goals
 

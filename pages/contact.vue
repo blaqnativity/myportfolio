@@ -44,41 +44,38 @@ const option = ref(options[0]);
           </div>
         </div>
       </UCard>
-    </div>
 
-    <div class="max-w-2xl mx-auto mb-10">
-      <h1
-        class="sm:text-3xl text-2xl font-medium title-font mb-10 text-gray-900 px-4 md:px-1"
-      >
-        Or Send a message
-      </h1>
+      <div class="max-w-2xl mx-auto mb-10">
+        <h1
+          class="sm:text-3xl text-2xl font-medium title-font mb-10 text-gray-900 px-4 md:px-1"
+        >
+          Or Send a message
+        </h1>
 
-      <!-- <UForm class="space-y-4 md:p-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-          <UFormGroup label="Name">
-            <UInput />
-          </UFormGroup>
-          <UFormGroup label="Email">
-            <UInput />
-          </UFormGroup>
-        </div>
+        <UForm class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <UFormGroup label="Name">
+              <UInput />
+            </UFormGroup>
+            <UFormGroup label="Email">
+              <UInput />
+            </UFormGroup>
+          </div>
 
-        <UFormGroup label="Interested In">
-          <USelect
-            v-model="option"
-            :options="options"
-            placeholder="Interested In"
-        /></UFormGroup>
+          <UFormGroup label="Interested In">
+            <USelect v-model="option" :options="options"
+          /></UFormGroup>
 
-        <UFormGroup label="Message"
-          ><UTextarea placeholder="Type your personalized message..."
-        /></UFormGroup>
+          <UFormGroup label="Message"
+            ><UTextarea placeholder="Type your personalized message..."
+          /></UFormGroup>
 
-        <UButton class="items-center gap-2" size="lg"
-          ><span>Send Message</span>
-          <UIcon name="i-heroicons-paper-airplane-16-solid"
-        /></UButton>
-      </UForm> -->
+          <UButton class="items-center gap-2" size="lg"
+            ><span>Send Message</span>
+            <UIcon name="i-heroicons-paper-airplane-16-solid"
+          /></UButton>
+        </UForm>
+      </div>
     </div>
   </section>
 </template>
