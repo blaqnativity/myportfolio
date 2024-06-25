@@ -7,7 +7,7 @@ description: "My journey into tech and how far I have come"
 
 # About Me
 
-I'm **Olukayode Asemudara**, I am a self-taught front-end developer, and wordpress-site builder.
+Hey there, I'm **Olukayode Asemudara**. I am a self-taught front-end developer, and wordpress-site builder. Building rich and responsive web interfaces is my core in frontend development. I love when elements are rightly aligned and positioned.
 
 ## My Tech Journey
 
@@ -34,3 +34,4 @@ Thank you for taking the time to learn about my journey. If you have any opportu
 ---
 
 Feel free to [contact me](https://www.olukayodeasemudara@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/asemudara-olukayode-8b04ba196/).
+h

@@ -1,6 +1,7 @@
 ---
 title: "Learning a New Technology"
 description: "Overcoming Fatigue in the Process of Learning a New Technology in Frontend Development"
+publishedAt: "2023-06-24"
 head:
   meta:
     - name: "keywords"

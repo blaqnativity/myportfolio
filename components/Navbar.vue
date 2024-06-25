@@ -8,7 +8,7 @@
           to="/"
           class="logo text-3xl md:text-5xl font-semibold text-gray-900"
         >
-          _kayodev
+          _kayodey
         </ULink>
       </div>
       <div class="flex space-x-6 items-center font-medium text-gray-600">

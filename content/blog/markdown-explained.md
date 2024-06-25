@@ -1,6 +1,7 @@
 ---
 title: "Markdown Explained Fully"
 description: "All you need to get started with Markdown"
+publishedAt: "2020-06-24"
 head:
   meta:
     - name: "keywords"

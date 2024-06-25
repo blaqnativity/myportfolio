@@ -20,7 +20,7 @@ console.log(colorMode.preference);
         <ULink
           class="logo text-2xl md:text-3xl font-semibold text-gray-600"
           to="/"
-          >_kayodev</ULink
+          >_kayodey</ULink
         >
         <p>Shaping world class websites, designs and experiences.</p>
         <div class="flex items-center gap-6">

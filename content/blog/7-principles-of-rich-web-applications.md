@@ -1,6 +1,7 @@
 ---
 title: "7 Principles of Rich Web Applications"
 description: "Overcoming Fatigue in the Process of Learning a New Technology in Frontend Development"
+publishedAt: "2014-06-24"
 head:
   meta:
     - name: "keywords"

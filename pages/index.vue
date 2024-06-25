@@ -5,11 +5,32 @@ import { errorMessages } from "vue/compiler-sfc";
 const { data, pending, error } = await useFetch(
   "https://api.github.com/users/blaqnativity/repos"
 );
+
+const work = [
+  {
+    label: "Wordpress Site",
+    icon: "i-heroicons-device-phone-mobile-20-solid",
+    description:
+      "  Custom web applications built to fit your unique business needs",
+  },
+  {
+    label: "Frontend Development",
+    icon: "i-heroicons-code-bracket-16-solid",
+    description:
+      "Beautiful and responsive web apps for mobile and desktop devices.",
+  },
+  {
+    label: "Consultation",
+    icon: "i-heroicons-light-bulb",
+    description:
+      "Expert advice and guidance to help your business succeed in the digital world.",
+  },
+];
 </script>
 
 <template>
   <!-- hero section -->
-  <section class="text-gray-600">
+  <section id="hero" class="text-gray-600">
     <div
       class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
     >
@@ -64,49 +85,18 @@ const { data, pending, error } = await useFetch(
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 -m-4">
-        <div class="p-4">
-          <div class="border border-gray-200 p-6 rounded-lg">
+        <div class="p-4" v-for="job in work" :key="job.id">
+          <div class="border border-gray-200 p-4 rounded-lg">
             <div
-              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
+              class="p-2 inline-flex items-center justify-center rounded-full bg-gray-100 text-green-500 mb-4"
             >
-              <UIcon name="i-heroicons-device-phone-mobile-20-solid" />
+              <UIcon :name="job.icon" class="w-8 h-8" />
             </div>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-              Wordpress Site
+              {{ job.label }}
             </h2>
-            <p class="leading-relaxed text-base">
-              Custom web applications built to fit your unique business needs
-            </p>
-          </div>
-        </div>
-        <div class="p-4">
-          <div class="border border-gray-200 p-6 rounded-lg">
-            <div
-              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
-            >
-              <UIcon name="i-heroicons-code-bracket-16-solid" />
-            </div>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-              Frontend Development
-            </h2>
-            <p class="leading-relaxed text-base">
-              Beautiful and responsive web apps for mobile and desktop devices.
-            </p>
-          </div>
-        </div>
-        <div class="p-4">
-          <div class="border border-gray-200 p-6 rounded-lg">
-            <div
-              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
-            >
-              <UIcon name="i-heroicons-light-bulb" />
-            </div>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-              Consultation
-            </h2>
-            <p class="leading-relaxed text-base">
-              Expert advice and guidance to help your business succeed in the
-              digital world.
+            <p class="leading-relaxed text-sm">
+              {{ job.description }}
             </p>
           </div>
         </div>
@@ -117,7 +107,7 @@ const { data, pending, error } = await useFetch(
 
   <!-- testimonials section -->
   <section class="text-gray-600">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-20 mx-auto">
       <div
         class="flex flex-wrap w-full mb-10 flex-col items-center text-center"
       >
@@ -137,14 +127,10 @@ const { data, pending, error } = await useFetch(
           taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
           taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
           fanny pack vaporware. Man bun next level coloring book skateboard four
-          loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo
-          juice before they sold out gentrify plaid gastropub normcore XOXO 90's
-          pickled cindigo jean shorts. Slow-carb next level shoindigoitch
-          ethical authentic, yr scenester sriracha forage franzen organic
-          drinking vinegar.
+          loko knausgaard.
         </p>
         <span
-          class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"
+          class="inline-block h-1 w-10 rounded bg-green-500 mt-8 mb-6"
         ></span>
         <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
           HOLDEN CAULFIELD
