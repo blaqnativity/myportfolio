@@ -21,17 +21,6 @@
           >_kayodey</ULink
         >
         <p>Shaping world class websites, designs and experiences.</p>
-        <div class="flex items-center gap-6">
-          <div class="bg-gray-100 p-6 rounded-md w-fit">
-            <UIcon name="i-dashicons-instagram" />
-          </div>
-          <div class="bg-gray-100 p-6 rounded-md w-fit">
-            <UIcon name="i-dashicons-instagram" />
-          </div>
-          <div class="bg-gray-100 p-6 rounded-md w-fit">
-            <UIcon name="i-dashicons-instagram" />
-          </div>
-        </div>
 
         <div>
           <div class="flex items-center gap-1">
