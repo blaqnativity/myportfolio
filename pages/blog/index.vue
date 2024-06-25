@@ -1,5 +1,5 @@
 <script setup>
-const { data } = await useAsyncData("blog-list", () =>
+const { data, error } = await useAsyncData("blog-list", () =>
   queryContent("/blog")
     .only(["_path", "title", "publishedAt"])
     .sort({ publishedAt: -1 })
@@ -25,6 +25,8 @@ const posts = computed(() => {
 
   return result;
 });
+
+// console.log(error);
 </script>
 
 <template>
