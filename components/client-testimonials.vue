@@ -19,21 +19,36 @@ const items = [
     job: "Blogger",
   },
 ];
+
+const carouselRef = ref();
+
+onMounted(() => {
+  setInterval(() => {
+    if (!carouselRef.value) return;
+
+    if (carouselRef.value.page === carouselRef.value.pages) {
+      return carouselRef.value.select(0);
+    }
+
+    carouselRef.value.next();
+  }, 5000);
+});
 </script>
 
 <template>
   <UCarousel
+    ref="carouselRef"
     v-slot="{ item }"
     :items="items"
     :ui="{
       item: 'basis-full',
     }"
-    arrows
-    class="container"
   >
     <div class="text-center mx-auto max-w-2xl px-4 space-y-4">
       <p class="font-semibold text-lg">{{ item.name }}</p>
-      <p class="font-normal text-sm text-gray-500">{{ item.description }}</p>
+      <p class="font-normal text-sm text-gray-500 w-[70%] mx-auto">
+        {{ item.description }}
+      </p>
       <div class="h-1 w-[10%] bg-gray-300 rounded-full mx-auto"></div>
       <p class="font-semibold">{{ item.job }}</p>
     </div>
