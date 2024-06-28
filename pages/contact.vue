@@ -13,12 +13,12 @@ const option = ref(options[0]);
 <template>
   <section class="mt-20">
     <div class="flex flex-wrap w-full mb-10 flex-col items-center text-center">
-      <h1
-        class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
-      >
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2">
         Let's Get in Touch!
       </h1>
-      <small class="lg:w-1/2 w-full leading-relaxed text-gray-500 text-sm">
+      <small
+        class="lg:w-1/2 w-full leading-relaxed :lighttext-gray-500 text-sm"
+      >
         Say Hello and Let's Create Something Great!
       </small>
     </div>
@@ -27,10 +27,10 @@ const option = ref(options[0]);
       <UCard class="max-w-2xl mx-auto mb-10">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
           <div
-            class="sm:text-3xl text-2xl font-medium title-font text-gray-900 md:col-span-2"
+            class="sm:text-3xl text-2xl font-medium title-font md:col-span-2"
           >
             <h1>Book a free call</h1>
-            <small class="lg:w-1/2 w-full leading-relaxed text-gray-500 text-sm"
+            <small class="lg:w-1/2 w-full leading-relaxed text-sm"
               >Let's talk about your project and how I can help you.</small
             >
           </div>
@@ -47,7 +47,7 @@ const option = ref(options[0]);
 
       <div class="max-w-2xl mx-auto mb-10">
         <h1
-          class="sm:text-3xl text-2xl font-medium title-font mb-10 text-gray-900 px-4 md:px-1"
+          class="sm:text-3xl text-2xl font-medium title-font mb-10 px-4 md:px-1"
         >
           Or Send a message
         </h1>

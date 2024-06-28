@@ -1,12 +1,8 @@
-<script setup>
-const imags = [
-  // link:'/images/olukayode.png'
-];
-</script>
+<script setup></script>
 
 <template>
   <section class="mt-10 px-8">
-    <main class="prose">
+    <main class="prose text-gray-600 dark:text-white">
       <ContentDoc path="/about" />
     </main>
   </section>
