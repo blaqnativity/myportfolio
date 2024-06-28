@@ -30,16 +30,14 @@ const work = [
 
 <template>
   <!-- hero section -->
-  <section id="hero" class="text-gray-600">
+  <section id="hero">
     <div
       class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
     >
       <div
         class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
       >
-        <h1
-          class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
-        >
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">
           Crafting the next generation of web applications
         </h1>
         <p class="mb-8 leading-relaxed">
@@ -69,17 +67,15 @@ const work = [
   <!-- hero section -->
 
   <!-- my works section -->
-  <section class="text-gray-600">
+  <section>
     <div class="container px-5 py-24 mx-auto">
       <div
         class="flex flex-wrap w-full mb-20 flex-col items-center text-center"
       >
-        <h1
-          class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
-        >
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2">
           Things I do and brag about
         </h1>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+        <p class="lg:w-1/2 w-full leading-relaxed">
           I help businesses connect with audiences, delivering greater brand
           engagement through innovative digital solutions.
         </p>
@@ -88,14 +84,14 @@ const work = [
         <div class="p-4" v-for="job in work" :key="job.id">
           <div class="border border-gray-200 p-4 rounded-lg">
             <div
-              class="p-2 inline-flex items-center justify-center rounded-full bg-gray-100 text-green-500 mb-4"
+              class="p-2 inline-flex items-center justify-center rounded-full bg-gray-100 dark:bg-transparent dark:border-2 text-green-500 dark:text-zinc-500 mb-4"
             >
-              <UIcon :name="job.icon" class="w-8 h-8" />
+              <UIcon :name="job.icon" class="w-8 h-8 dark:text-white" />
             </div>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+            <h2 class="text-lg font-medium title-font mb-2">
               {{ job.label }}
             </h2>
-            <p class="leading-relaxed text-sm">
+            <p class="leading-relaxed text-sm dark:text-gray-500">
               {{ job.description }}
             </p>
           </div>
@@ -106,14 +102,12 @@ const work = [
   <!-- my works section -->
 
   <!-- testimonials section -->
-  <section class="text-gray-600">
+  <section>
     <div class="container px-5 py-20 mx-auto">
       <div
         class="flex flex-wrap w-full mb-10 flex-col items-center text-center"
       >
-        <h1
-          class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
-        >
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2">
           What people say about my work
         </h1>
         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
@@ -133,12 +127,10 @@ const work = [
     <div
       class="flex flex-wrap w-full mt-20 mb-10 flex-col items-center text-center"
     >
-      <h1
-        class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
-      >
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2">
         My Github Repositories
       </h1>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+      <p class="lg:w-1/2 w-full leading-relaxed">
         Check out my github repo to find the code base of some of my works.
       </p>
     </div>
@@ -166,7 +158,7 @@ const work = [
         :key="repo"
       >
         <span class="text-lg font-semibold"> {{ repo.name }}</span>
-        <span class="text-sm text-gray-500"> {{ repo.description }}</span>
+        <span class="text-sm light:text-gray-500"> {{ repo.description }}</span>
         <ULink
           :to="repo.html_url"
           target="_blank"

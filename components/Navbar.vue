@@ -1,12 +1,14 @@
 <script setup></script>
 
 <template>
-  <section class="w-full bg-white border-b">
+  <section
+    class="w-full bg-white border-b dark:border-b-zinc-900 dark:bg-zinc-950"
+  >
     <div class="max-w-5xl mx-auto py-5 px-4 flex items-center justify-between">
       <div>
         <ULink
           to="/"
-          class="logo text-3xl md:text-5xl font-semibold text-gray-900"
+          class="logo text-3xl md:text-5xl font-semibold text-gray-900 dark:text-gray-100"
         >
           _kayodey
         </ULink>
@@ -35,10 +37,10 @@
         >
           Contact
         </ULink>
-        <!-- 
-        <ClientOnly>
+
+        <div>
           <ColorModeSelector />
-        </ClientOnly> -->
+        </div>
       </div>
     </div>
   </section>
