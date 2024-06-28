@@ -10,8 +10,14 @@ export default defineNuxtConfig({
     },
   },
 
+  ui: {
+    primary: "black",
+    gray: "purple",
+  },
+
   modules: ["@nuxt/ui", "@nuxtjs/color-mode", "@nuxt/image", "@nuxt/content"],
+
   colorMode: {
-    preference: "light",
+    preference: "system",
   },
 });

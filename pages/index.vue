@@ -45,13 +45,19 @@ const work = [
           functional web applications tailored to your specific requirements.
         </p>
         <div class="flex justify-center space-x-4">
-          <UButton to="/contact" size="xl"
+          <UButton to="/contact" size="xl" class="dark:text-white"
             >Got an idea? Lets talk
-            <UIcon name="i-heroicons-chat-bubble-left-ellipsis-16-solid" />
+            <UIcon
+              name="i-heroicons-chat-bubble-left-ellipsis-16-solid"
+              class="dark:text-white"
+            />
           </UButton>
-          <UButton to="/projects" size="xl"
+          <UButton to="/projects" size="xl" class="dark:text-white"
             >See my work
-            <UIcon name="i-heroicons-rectangle-stack-solid" />
+            <UIcon
+              name="i-heroicons-rectangle-stack-solid"
+              class="dark:text-white"
+            />
           </UButton>
         </div>
       </div>

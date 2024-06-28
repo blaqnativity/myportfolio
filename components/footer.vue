@@ -1,11 +1,11 @@
 <template>
-  <footer class="text-gray-600 border-t">
+  <footer class="border-t">
     <div
       class="max-w-5xl mx-auto grid grid-cols-1 gap-8 md:grid-cols-5 items-start py-10 px-4"
     >
       <div class="col-span-3 space-y-6">
         <ULink
-          class="logo text-2xl md:text-3xl font-semibold text-gray-600"
+          class="logo text-2xl md:text-3xl font-semibold light:text-gray-600"
           to="/"
           >_kayodey</ULink
         >
